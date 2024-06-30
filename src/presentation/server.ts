@@ -21,7 +21,7 @@ export class Servers{
                     console.log(data)
                 });
 
-                ws.send("hola mundo")
+                ws.send("hola mundo en ws")
 
 
           })
