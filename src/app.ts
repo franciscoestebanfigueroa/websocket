@@ -1,3 +1,4 @@
+import { Servers } from "./presentation/server";
 
 (()=>{
 main();
@@ -5,7 +6,7 @@ main();
 
 
 function main(){
-    
+    Servers.serverHttp();
     console.log("Run App")
 
 }
